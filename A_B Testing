@@ -1,1 +1,54 @@
+## Revenue per user
+
+import matplotlib.pyplot as plt
+import matplotlib.ticker as mtick
+
+# Data for plotting
+treatment_mean = 3.390
+control_mean = 3.374
+treatment_EBM = 0.317
+control_EBM = 0.325
+
+# x-axis labels and their positions
+labels = ['Treatment', 'Control']
+x_positions = [0, 1]
+
+# y-axis limits
+y_min = 0
+y_max = 4
+
+# Figure and axis objects
+fig, ax = plt.subplots(figsize=(4, 8))
+
+# Plot the bars with error bars
+ax.bar(x_positions, [treatment_mean, control_mean], 
+       yerr=[treatment_EBM, control_EBM], capsize=5,
+       color=['#76448A', '#B9770E'])
+
+# Set the axis labels and limits
+ax.set_xticks(x_positions)
+ax.set_xticklabels(labels)
+ax.yaxis.set_major_formatter(mtick.StrMethodFormatter('${x:,.2f}'))
+ax.set_ylabel('Revenue per User')
+ax.set_ylim([y_min, y_max])
+
+# Add a horizontal line at the overall mean
+mean = (treatment_mean + control_mean) / 2
+ax.axhline(mean, color='gray', linestyle='--')
+
+# Add the value of each bar inside the bar
+for i, v in enumerate([treatment_mean, control_mean]):
+    ax.text(i, v-1,  '${:.2f}'.format(v), color='white', ha='center', fontweight='bold')
+
+# Add a title
+fig.suptitle('Revenue per User: Treatment vs Control', y=0.95, size='x-large')
+
+
+# Show the plot
+plt.show()
+
+
+# Save the plot as a PNG file
+fig.savefig('Revenue_per_User.png', dpi=300, bbox_inches='tight')
+
 
