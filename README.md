@@ -3,15 +3,11 @@
 Toolset: SQL, Spreadsheets, Python and Tableau
 **All code used in this project is available here.** 
 
-Summary
-​
-There was no strong evidence that a new landing page design would lead to an increase in revenue per user, hence a no-launch recommendation.
+Summary: There was no strong evidence that a new landing page design would lead to an increase in revenue per user, hence a no-launch recommendation.
 
 ​
 
-Context
-​
-GloBox is a fictitious online marketplace that specializes in sourcing unique and high-quality products from around the world. They are primarily known amongst their customer base for boutique fashion items and high-end décor products. However, their food and drink offerings grew tremendously in the last few months, and the company wanted to bring awareness to this product category to increase revenue. The Growth team decided to run an A/B test for mobile users that highlighted key products in the food and drink category as a banner at the top of the website. Visitors to the GloBox main page were randomly assigned to either the control or test group. The page loaded the banner if the user was assigned to the test group, and did not if the user was assigned to the control group. A user was said to have converted if they made at least one purchase during the experiment period.
+Context: GloBox is a fictitious online marketplace that specializes in sourcing unique and high-quality products from around the world. They are primarily known amongst their customer base for boutique fashion items and high-end décor products. However, their food and drink offerings grew tremendously in the last few months, and the company wanted to bring awareness to this product category to increase revenue. The Growth team decided to run an A/B test for mobile users that highlighted key products in the food and drink category as a banner at the top of the website. Visitors to the GloBox main page were randomly assigned to either the control or test group. The page loaded the banner if the user was assigned to the test group, and did not if the user was assigned to the control group. A user was said to have converted if they made at least one purchase during the experiment period.
 
 ​
 
@@ -19,14 +15,8 @@ As a data analyst at GloBox, my task was to analyze the results of the A/B test 
 
 
 
-Result
-​
-In the absence of any potential biases, I did not observe any differences between the average revenue per user in both groups. On the other hand, the conversion rate for the treatment group was higher than the control group.
+Result: In the absence of any potential biases, I did not observe any differences between the average revenue per user in both groups. On the other hand, the conversion rate for the treatment group was higher than the control group.
 
 ​
 
-Recommendation
-
-​
-
-Based on the results above, it did not make sense to proceed with launching the new landing page. Even though I did not observe an increase in revenue per user, the new landing page did lead to an increase in conversion rate which was still a positive outcome, but the change would not bring any additional revenue to the company. 
+Recommendation: Based on the results above, it did not make sense to proceed with launching the new landing page. Even though I did not observe an increase in revenue per user, the new landing page did lead to an increase in conversion rate which was still a positive outcome, but the change would not bring any additional revenue to the company. 
