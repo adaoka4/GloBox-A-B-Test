@@ -109,7 +109,7 @@ ON activity.uid = groups.uid
 
 
 
-####### Imported joined table from bit.io into SQL server as GloBox A_B Test data
+-- Imported joined table from bit.io into SQL server as GloBox A_B Test data
 
 -- Drop duplicate columns uid, uid2, device2 from the table 
 ALTER TABLE dbo.[GloBox A_B Test data]
