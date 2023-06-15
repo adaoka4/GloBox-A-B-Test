@@ -1,4 +1,4 @@
-# GloBox-A-B-Test
+# A_B Test for the New GloBox Landing Page
 
 Toolset: SQL, Spreadsheets, Python and Tableau
 
