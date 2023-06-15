@@ -1,4 +1,5 @@
-Data cleaning and EDA in SQL:
+--Data cleaning and EDA in SQL:
+
 ############ Raw data in Bit.io
 -- Count the number of distinct users
 SELECT COUNT(DISTINCT id) FROM "users";
