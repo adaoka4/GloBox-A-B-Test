@@ -1,7 +1,5 @@
 # A_B Test for the New GloBox Landing Page
 
-Toolset: SQL, Spreadsheets, Python and Tableau
-
 Summary: There was no strong evidence that a new landing page design would lead to an increase in revenue per user, hence a no-launch recommendation.
 
 ​
